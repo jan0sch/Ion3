@@ -1,0 +1,86 @@
+
+Context:
+
+[Added prefix stuff
+Tuomo Valkonen <tuomov@iki.fi>**20071220180414] 
+
+[CF_NO_GETTEXT
+Tuomo Valkonen <tuomov@iki.fi>**20070620202409] 
+
+[Some list code improvements
+Tuomo Valkonen <tuomov@iki.fi>**20070506140559] 
+
+[Oops, fixed comparison function order.
+Tuomo Valkonen <tuomov@iki.fi>**20070424170047] 
+
+[Renamed `prog_execname` `libtu_progname` and added `libtu_progbasename`.
+Tuomo Valkonen <tuomov@iki.fi>**20070310230536] 
+
+[Better handling of STRINGID_NONE
+Tuomo Valkonen <tuomov@iki.fi>**20070219231818] 
+
+[Clean-up and pending updates
+Tuomo Valkonen <tuomov@iki.fi>**20070129141139] 
+
+[stringstore_get should work on STRINGID_NONE too.
+Tuomo Valkonen <tuomov@iki.fi>**20070126232827] 
+
+[Added stringstore_find/alloc_n
+Tuomo Valkonen <tuomov@iki.fi>**20070125191555] 
+
+[Added stringstore_ref
+Tuomo Valkonen <tuomov@iki.fi>**20070121200255] 
+
+[Path fix
+Tuomo Valkonen <tuomov@iki.fi>**20061016223205] 
+
+[Updated locations of *.mk.
+Tuomo Valkonen <tuomov@iki.fi>**20060803210914] 
+
+[*list_remove return true if the item was found (and removed).
+Tuomo Valkonen <tuomov@iki.fi>**20060107210154] 
+
+[Added some coercions to remove gcc complaints in snprintf_2.2.
+Tuomo Valkonen <tuomov@iki.fi>**20050514202320] 
+
+[Added plain dlist reverse forall.
+Tuomo Valkonen <tuomov@iki.fi>**20050325164819] 
+
+[Added libtu_setparam_invert.
+Tuomo Valkonen <tuomov@iki.fi>**20050319210755] 
+
+[Added setparam.c.
+Tuomo Valkonen <tuomov@iki.fi>**20050319202730] 
+
+[Added XOR macro.
+Tuomo Valkonen <tuomov@iki.fi>**20050319195625] 
+
+[Use install-sh.
+Tuomo Valkonen <tuomov@iki.fi>**20050301215757] 
+
+[Added routinesn for generic iterables.
+Tuomo Valkonen <tuomov@iki.fi>**20050226230912] 
+
+[Increased FOR_ALL macro reuse.
+Tuomo Valkonen <tuomov@iki.fi>**20050226221051] 
+
+[Added routines to take first/last elements of objlist and ptrlist.
+Tuomo Valkonen <tuomov@iki.fi>**20050226210933] 
+
+[ObjList changes.
+Tuomo Valkonen <tuomov@iki.fi>**20050226205819] 
+
+[Renamed Symlist PtrList.
+Tuomo Valkonen <tuomov@iki.fi>**20050226203855] 
+
+[Added struct field address macros.
+Tuomo Valkonen <tuomov@iki.fi>**20050226093720] 
+
+[Symlist improvements.
+Tuomo Valkonen <tuomov@iki.fi>**20050224081221] 
+
+[Added dlist iteration macros.
+Tuomo Valkonen <tuomov@iki.fi>**20050223180501] 
+
+[TAG libtu-3-svn2darcs
+Tuomo Valkonen <tuomov@iki.fi>**20050215180637] 

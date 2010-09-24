@@ -1,0 +1,110 @@
+
+Context:
+
+[Do not remove proxy from cache in object destroy watch handler.
+Tuomo Valkonen <tuomov@iki.fi>**20071215143858
+ The GC can remove it. Just have the pointer to the actual object be 
+ zeroed. We may still want to find the proxy to pass the Lua side as 
+ a key, although exported functions may not be called.
+] 
+
+[Use S if not copy
+Tuomo Valkonen <tuomov@iki.fi>**20070506140705] 
+
+[Added extl_table_iter
+Tuomo Valkonen <tuomov@iki.fi>**20070430164248] 
+
+[Added ExtlAny
+Tuomo Valkonen <tuomov@iki.fi>**20070430162426] 
+
+[Cleanup/reorganisation
+Tuomo Valkonen <tuomov@iki.fi>**20070430144940] 
+
+[Don't put functions into documentation index
+Tuomo Valkonen <tuomov@iki.fi>**20070408124504
+ (The function list should suffice.)
+] 
+
+[Improved mechanisms for unregistration of functions.
+Tuomo Valkonen <tuomov@iki.fi>**20070226150118
+ Makes for a bit smaller memory footprint.
+] 
+
+[Updated *.mk locations.
+Tuomo Valkonen <tuomov@iki.fi>**20060803211018] 
+
+[Empty initialiser in libextl-mkexports was missing 'untraced'.
+Tuomo Valkonen <tuomov@iki.fi>**20060516162021] 
+
+[lua5.1 changes that aren't backwards compatible
+Etan Reisner <deryni@eden.rutgers.edu>**20060322164425] 
+
+[lua5.1 changes that should be backwards compatible
+Etan Reisner <deryni@eden.rutgers.edu>**20060322163746] 
+
+[Added untraced-option for exports.
+Tuomo Valkonen <tuomov@iki.fi>**20060506211657] 
+
+[Oops. Path lookup order was ignoring user cfgfiles after previous changes.
+Tuomo Valkonen <tuomov@iki.fi>**20050928194026] 
+
+[Added protect mode check function protected(fn|nil).
+Tuomo Valkonen <tuomov@iki.fi>**20050903145957] 
+
+[Oops, do go through files even if cfdir is NULL.
+Tuomo Valkonen <tuomov@iki.fi>**20050818171629] 
+
+[Changes in directory lookup order/policy.
+Tuomo Valkonen <tuomov@iki.fi>**20050817215809] 
+
+[Also try to read config files without an extension.
+Per Olofsson <pelle@dsv.su.se>**20050816144735
+ 
+ This change is needed so that /etc/default/ion3 can be read by the
+ ion3 Debian package.
+] 
+
+[Improvements to dead object handling.
+Tuomo Valkonen <tuomov@iki.fi>**20050703204209] 
+
+[Improved error reporting on passing around dead objects.
+Tuomo Valkonen <tuomov@iki.fi>**20050702205641] 
+
+[Documentation in Lua code wasn't being parsed anymore.
+Tuomo Valkonen <tuomov@iki.fi>**20050605194016
+ (Dynamic typing and changes in part of code...)
+] 
+
+[Added -reexport option.
+Tuomo Valkonen <tuomov@iki.fi>**20050421223739] 
+
+[libextl-mkexports can now generate exports.h.
+Tuomo Valkonen <tuomov@iki.fi>**20050319191302] 
+
+[README improvements.
+Tuomo Valkonen <tuomov@iki.fi>**20050316110102] 
+
+[It's 2005 already! (Updated copyright notices.)
+Tuomo Valkonen <tuomov@iki.fi>**20050314101157] 
+
+[Exported classes must now be marked for libextl-mkexports.
+Tuomo Valkonen <tuomov@iki.fi>**20050308082415
+ 
+ - EXTL_EXPORT before IMPLCLASS.
+ 
+] 
+
+[Added "protected mode".
+Tuomo Valkonen <tuomov@iki.fi>**20050301224511
+ 
+ - Exports can be marked "safe" to be called at any time with EXTL_EXPORT.
+ 
+ - New "safelist" API.
+ 
+] 
+
+[Execute install-sh through sh.
+Tuomo Valkonen <tuomov@iki.fi>**20050301214534] 
+
+[TAG libextl-3-svn2darcs
+Tuomo Valkonen <tuomov@iki.fi>**20050215180651] 

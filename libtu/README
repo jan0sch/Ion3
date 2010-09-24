@@ -1,0 +1,33 @@
+
+libtu
+
+Copyright (c) Tuomo Valkonen 1999-2007.
+<tuomov at iki.fi>
+
+
+Libtu is a small utility library for programs written in C. 
+
+Most of this library may be distributed and modified under either under
+the Clarified Artistic License or the GNU LGPL, version 2.1 or later, 
+both reproduced in the file LICENSE. The red-black tree code is under
+the GNU LGPL; see README.rb for details.
+
+To build the library, first edit system.mk to customize it for your
+system if necessary. Then 'make depend && make'.
+To install it run 'make install' (perhaps as root depending on
+where you are installing it).
+
+If you want to use it in your programs, you may try to figure out how
+by reading the header files (include/*.h) and test programs (tester*.c).
+Or you could try urging me to write some sort of a manual.
+
+---
+
+Libtu needs the functions asprintf and vasprintf. These do not
+exist on most platforms. One implementation by Mark Martinec
+is included in snprintf_2.2/ and is used by default. To use the
+system's versions of these functions, if available, modify
+system.mk.
+
+The implementation of red-black trees is based on that by
+James S. Plank; see README.rb for details.
